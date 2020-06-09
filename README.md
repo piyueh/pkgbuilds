@@ -1,7 +1,9 @@
 pkgbuilds
 =========
 
-PKGBUILDs for Arch AUR packages I maintain.
+PKGBUILDs for [Arch AUR](https://aur.archlinux.org/) packages I maintain. I use
+[aurpublish](https://github.com/eli-schwartz/aurpublish) to manage AUR
+repositories in this GitHub repository.
 
 ## CONTRIBUTING
 ---------------
