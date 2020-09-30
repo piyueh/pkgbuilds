@@ -1,2 +1,5 @@
 **/pkg
 **/src
+python-pytorch-cuda-kepler/*.patch
+python-pytorch-cuda-kepler/*.pkg.tar.zst
+python-pytorch-cuda-kepler/pytorch-*
