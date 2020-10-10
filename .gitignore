@@ -3,3 +3,6 @@
 python-pytorch-cuda-kepler/*.patch
 python-pytorch-cuda-kepler/*.pkg.tar.zst
 python-pytorch-cuda-kepler/pytorch-*
+python-tensorflow-cuda-kepler/*.patch
+python-tensorflow-cuda-kepler/tensorflow-cuda-*.tar.gz
+python-tensorflow-cuda-kepler/*.pkg.tar.zst
