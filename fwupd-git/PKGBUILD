@@ -6,7 +6,7 @@ pkgver=1.8.2.r46.g6e69d8fb8
 pkgrel=1
 pkgdesc="Simple daemon to allow session software to update firmware"
 arch=('x86_64')
-url="https://github.com/fwupd/fwupd"
+url="https://github.com/fwupd/fwupd.git"
 license=('LGPL')
 depends=(
     'libxmlb' 'efivar' 'python' 'libsmbios' 'libgusb'
@@ -38,7 +38,7 @@ backup=(
     'etc/fwupd/thunderbolt.conf'
     'etc/fwupd/uefi_capsule.conf'
 )
-source=("${pkgname}::git+https://github.com/fwupd/fwupd.git")
+source=("${pkgname}::git+${url}")
 sha512sums=('SKIP')
 
 pkgver() {
